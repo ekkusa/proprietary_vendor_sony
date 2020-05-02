@@ -36,7 +36,6 @@
 #TODO: Add 'check' as fs_mgr_flags with data partition.
 # Currently we dont have e2fsck compiled. So fs check would failed.
 
-<<<<<<< HEAD
 #<src>                                                 <mnt_point>               <type>  <mnt_flags and options>                            <fs_mgr_flags>
 /dev/block/bootdevice/by-name/system                    /                         ext4    ro,barrier=1,discard                                 wait,slotselect,avb
 /dev/block/bootdevice/by-name/userdata                  /data                     ext4    noatime,nosuid,nodev,barrier=1,noauto_da_alloc,discard wait,check,fileencryption=ice
@@ -53,4 +52,4 @@
 # and fails if it does not find it.
 /dev/block/bootdevice/by-name/frp                       /persistent        emmc    defaults                                             defaults
 /dev/block/bootdevice/by-name/misc                      /misc              emmc    defaults                                             defaults
-/dev/block/zram0                                        none               swap    defaults                                             zramsize=1073741824,max_comp_stream=8
+/dev/block/zram0                                        none               swap    defaults                                             zramsize=3221225472,max_comp_stream=8
