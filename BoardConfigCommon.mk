@@ -62,6 +62,7 @@ BOARD_KERNEL_CMDLINE += msm_drm.dsi_display0=dsi_panel_cmd_display:config0
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
 TARGET_BOARD_PLATFORM_GPU := qcom-adreno630
+QCOM_HARDWARE_VARIANT := sdm845
 
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
